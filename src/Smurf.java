@@ -1,3 +1,5 @@
+import javafx.scene.shape.Ellipse;
+
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2017
  *    Level 1
@@ -30,16 +32,23 @@ public class Smurf {
 	/* Papa Smurf wears a red hat, all the others are white. */
 	public String getHatColor() {
 		// 3. Fill in this method
-		return "";
+		if (name.equals("Papa")) {
+			return "red";
+		}
+	
+	else{
+		return "white";
 	}
-
+	}
 	/* Smurfette is the only female Smurf. */
 	public String isGirlOrBoy() {
 		// 4. Fill in this method
-		return "";
+	if (name.equals("Smurfette")) {
+		return "girl";
 	}
-
+	else {
+		return "boy";
+	}
+	}
+	
 }
-
-
-
