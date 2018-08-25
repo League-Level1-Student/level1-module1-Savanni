@@ -7,10 +7,17 @@ public class Taco {
 		// TODO Auto-generated method stub
 
 	}
-void getMeat() {
-	
+String getMeat() {
+	return meat;
 }
-void getSauce() {
-	
+String getSauce() {
+	return sauce;
 }
+void setMeat(String meat) {
+	this.meat = meat;
+}
+void setSauce(String sauce) {
+	this.sauce = sauce;
+}
+
 }
